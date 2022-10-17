@@ -1,0 +1,9 @@
+.flow > * + * {
+    margin-block: var(--flow-spacer, 1rem);
+}
+.flow[data-spacer="tight"] {
+    --flow-spacer: .5rem;
+}
+.flow[data-spacer="wide"] {
+    --flow-spacer: 2rem;
+}
