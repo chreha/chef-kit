@@ -10,7 +10,7 @@
         <h2 class="fs-800 clr-primary-500 ff-accent">{data.title}</h2>
       </header>          
       <div  class="even-columns">
-        {#each data.cards as card}
+        <!-- {#each data.cards as card}
         <div class="card | box-shadow-1" data-type="testimonial">
           <Picture imageData = {card} />
           <div class="card-body">
@@ -21,7 +21,7 @@
             <p class="fs-300">{card['author-title']}</p>
           </div>                
         </div>
-        {/each}
+        {/each} -->
       </div>
     </div>
   </section>

@@ -9,11 +9,11 @@
         <p class="fs-600 uppercase">{data.subtitle}</p>
       </header>
       <div class="grid-auto-fit">
-        {#each data.cards as card}
+        <!-- {#each data.cards as card}
         <div>
           <h3 class="fs-500 fw-bold clr-neutral-900 uppercase">{card.title}</h3>
           <p>{card.content}</p>
         </div>
-        {/each}        
+        {/each}         -->
     </div>
   </section>

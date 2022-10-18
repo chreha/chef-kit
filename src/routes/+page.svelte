@@ -4,10 +4,10 @@
     import AutoFit from '../components/sections/auto-fit-columns.svelte';
     import Meals from '../components/sections/interactive-figure.svelte';
     import Testimonials from '../components/sections/testimonials.svelte';      
-    export let data;    
-    const pagedata = data.props.pagedata;    
+    export let data;        
+    console.log(data);
     const getSectionData = (id) => {
-        return pagedata.sections.filter((el) => {return el.id == id})[0];
+        return data.sections.filter((el) => {return el.uid == id})[0];
     }
 </script>
 <svelte:head>
